@@ -118,7 +118,7 @@
 // 			for (let k = 1; k <= (2*i + 1); k++) {
 // 				str =  str + '#';
 // 			}
-// 		console.log(str);	
+// 		return str;	
 // 	}
 	
 // }
@@ -141,12 +141,10 @@
 
 // function firstAndLastToUpper(str){
 // 	let newStr = str[0].toUpperCase() + str.slice(1, str.length - 1) + str[str.length - 1].toUpperCase();
-// 	console.log(newStr);
+// 	return newStr;
 
 
 // }
-
-// firstAndLastToUpper('axdixdtyixdr,k');
 
 
 // function cursorCheck(str) { 
@@ -176,15 +174,14 @@
 //  	for (var i = 0; i < arr.length; i++) {
 //  		for (var g = 0; g < alphabet.length; g++) {
 //  			if(arr[i] == alphabet[g] ) {
-//  				arr[i] = bigAlphabet[g]
+//  				arr[i] = bigAlphabet[g];
 //  			}
 //  		}
 //  	}
 //  	let newStr = arr.join('');
-//  	console.log(newStr)
+//  	return newStr;
 
 // }
-// toUppercase('abc') // 'ABC'
 
 
 
@@ -211,7 +208,7 @@
 
 	
 // }
-// 	console.log(newStr);
+// 	return newStr;
 // }
 
 // removeDuplicationLetters('Hello I am Iron Man')
